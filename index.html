@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
-        <link rel="icon" href="favicon.ico">
+        <link rel="icon" href="favicon.ico" />
         <script data-goatcounter="https://mahyar132.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
         <title>Home</title>
 
@@ -92,6 +92,10 @@
                 white-space: nowrap;
             }
 
+            nav a:visited {
+                color: var(--dim);
+            }
+
             nav a:hover {
                 color: var(--text);
                 border-color: #3a404b;
@@ -100,6 +104,10 @@
             nav a.active {
                 background: #007bff;
                 border-color: #007bff;
+                color: #fff;
+            }
+
+            nav a.active:visited {
                 color: #fff;
             }
 
@@ -121,6 +129,14 @@
 
             p:last-of-type {
                 margin-bottom: 0;
+            }
+
+            a {
+                color: #00aff0;
+            }
+
+            a:visited {
+                color: #00aff0;
             }
 
             strong {
@@ -223,13 +239,19 @@
 
         <footer>
             <div class="footer-grid">
-                <span> Mahyar </span>
-                <span> Under Development </span>
+                <span>Mahyar</span>
+                <span>Under Development</span>
             </div>
 
             <div class="footer-line"></div>
 
             Copyright © 2026 - <span id="year"></span> Mahyar Projects
+
+            <p>
+                This site is open source and licensed under the
+                <a href="https://opensource.org/license/mit">MIT License</a>.
+                <a href="https://github.com/Mahyar132/mahyar132.github.io">Improve this page</a>.
+            </p>
         </footer>
 
         <script>
