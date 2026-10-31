@@ -5,116 +5,34 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="noindex" />
         <script data-goatcounter="https://mahyar132.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+        <link rel="stylesheet" href="Style/bootstrap.css" />
         <title>404 - Page not found</title>
-
-        <style>
-            :root {
-                --bg: #0f1115;
-                --text: #e6e8eb;
-                --dim: #8b919a;
-                --accent: #00aff0;
-                --mono: Consolas, "Courier New", monospace;
-            }
-
-            * {
-                box-sizing: border-box;
-            }
-
-            body {
-                margin: 0;
-                background: var(--bg);
-                color: var(--text);
-                font:
-                    14px/1.5 -apple-system,
-                    BlinkMacSystemFont,
-                    "Segoe UI",
-                    Roboto,
-                    Arial,
-                    sans-serif;
-            }
-
-            main {
-                display: flex;
-                min-height: 100vh;
-                align-items: center;
-                justify-content: center;
-                padding: 32px 24px;
-            }
-
-            .error {
-                width: 100%;
-                max-width: 640px;
-            }
-
-            .code {
-                margin: 0 0 12px;
-                color: var(--accent);
-                font: 700 64px/1 var(--mono);
-            }
-
-            h1 {
-                margin: 0 0 12px;
-                color: var(--text);
-                font: 700 22px/1.3 var(--mono);
-            }
-
-            p {
-                margin: 0 0 24px;
-                color: var(--dim);
-            }
-
-            a {
-                display: inline-block;
-                padding: 8px 13px;
-                border: 1px solid var(--accent);
-                border-radius: 4px;
-                background: transparent;
-                color: var(--accent);
-                font: 13px var(--mono);
-                text-decoration: none;
-            }
-
-            a:visited {
-                color: var(--accent);
-            }
-
-            a:hover {
-                background: var(--accent);
-                color: #fff;
-            }
-
-            a:focus-visible {
-                outline: 2px solid var(--accent);
-                outline-offset: 3px;
-            }
-
-            @media (max-width: 480px) {
-                main {
-                    padding: 24px 18px;
-                }
-
-                .code {
-                    font-size: 52px;
-                }
-
-                h1 {
-                    font-size: 19px;
-                }
-            }
-        </style>
     </head>
 
-    <body>
-        <main>
-            <section class="error" aria-labelledby="error-title">
-                <p class="code" aria-hidden="true">404</p>
+    <body
+        class="d-flex align-items-center justify-content-center min-vh-100 bg-dark text-light"
+        style="
+            --bs-dark-rgb: 15, 17, 21;
+            --bs-body-bg: #0f1115;
+            --bs-body-color: #e6e8eb;
+            --bs-secondary-color: #8b919a;
+            --bs-link-color: #00aff0;
+            --bs-link-hover-color: #ffffff;
+        "
+    >
+        <main class="container py-4 px-3">
+            <section class="mx-auto w-100" style="max-width: 640px">
+                <h2 class="display-1 lh-1 mb-3 text-info" style="--bs-info: #00aff0">404</h2>
 
-                <h1 id="error-title">Page not found</h1>
-
+                <h4>Page not found</h4>
                 <p>The page you're looking for doesn't exist or may have moved.</p>
                 <p>Or maybe it's hiding somewhere! =^ω^=</p>
 
-                <a href="https://mahyar132.github.io/">Back to home</a>
+                <a
+                    href="https://mahyar132.github.io/"
+                    class="btn"
+                    style="--bs-btn-color: #00aff0; --bs-btn-border-color: #00aff0; --bs-btn-hover-bg: #00aff0"
+                    >Back to home</a>
             </section>
         </main>
     </body>
