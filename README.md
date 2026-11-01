@@ -54,6 +54,10 @@ Third-party components remain under their original licenses:
 - **Projects:** https://mahyar132.github.io/projects
 - **Artwork:** https://mahyar132.github.io/art
 
+## Contributing
+
+Suggestions, improvements, and contributions are welcome! =^w^=
+
 ---
 
 *A little laboratory on the internet.*  
