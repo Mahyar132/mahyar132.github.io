@@ -29,17 +29,23 @@ Isotope is built using:
 - Bootstrap
 - GitHub Pages
 
-Additional services may be used for specific functionality, such as GoatCounter for website statistics and giscus for comments.
+## External Services
+
+Some features rely on external services:
+
+- **GoatCounter:** Website analytics
+- **Giscus:** Comments (Art page)
 
 ## Licensing
 
 Isotope uses different licensing terms for different parts of the project.
 
-- **Website source code:** GNU General Public License v3.0 (GPL-3.0)
+- **HTML code:** GNU General Public License v3.0 (GPL-3.0)
 - **Custom CSS and JavaScript:** Dedicated to the Public Domain, as indicated in the respective source files
 - **Third-party components:** Remain under their original licenses
 
-Bootstrap is distributed under the MIT License.
+- **Bootstrap:** MIT License.
+- **Noto Emoji artwork:** Apache License 2.0.
 
 ## Links
 
