@@ -42,7 +42,8 @@ Isotope uses different licensing terms for different parts of the project.
 
 - **HTML code:** GNU General Public License v3.0 (GPL-3.0)
 - **Custom CSS and JavaScript:** Dedicated to the Public Domain, as indicated in the respective source files
-- **Third-party components:** Remain under their original licenses
+
+Third-party components remain under their original licenses:
 
 - **Bootstrap:** MIT License.
 - **Noto Emoji artwork:** Apache License 2.0.
