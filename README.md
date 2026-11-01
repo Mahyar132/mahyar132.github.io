@@ -16,6 +16,8 @@ It is not intended to be a commercial product or a general-purpose website templ
 - **Responsive:** Designed to work across desktop and mobile devices.
 - **Self-hostable:** Can be hosted on any static web server.
 - **Open source:** Source code is available for inspection, modification, and redistribution.
+- **LibreJS compatibility:** JavaScript licensing information is provided to support GNU LibreJS and help users identify the licenses and source code of scripts used by the website.
+- **Minimal JavaScript:** Uses Vanilla JavaScript without unnecessary frameworks or dependencies.
 
 ## Technologies
 
