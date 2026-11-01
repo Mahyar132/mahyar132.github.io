@@ -56,9 +56,8 @@ Third-party components remain under their original licenses:
 
 ## Contributing
 
-Suggestions, improvements, and contributions are welcome! =^w^=
+Suggestions, improvements, and contributions are welcome! =^ω^=
 
 ---
 
-*A little laboratory on the internet.*  
-`=^ω^=`
+*A little laboratory on the internet.* =^ω^=
